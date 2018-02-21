@@ -1,0 +1,10 @@
+C:\Users\brand\source\repos\Series y ciclos\Series y ciclos\bin\Debug\Series y ciclos.exe.config
+C:\Users\brand\source\repos\Series y ciclos\Series y ciclos\bin\Debug\Series y ciclos.exe
+C:\Users\brand\source\repos\Series y ciclos\Series y ciclos\bin\Debug\Series y ciclos.pdb
+C:\Users\brand\source\repos\Series y ciclos\Series y ciclos\obj\Debug\Series y ciclos.csprojResolveAssemblyReference.cache
+C:\Users\brand\source\repos\Series y ciclos\Series y ciclos\obj\Debug\Series_y_ciclos.Form1.resources
+C:\Users\brand\source\repos\Series y ciclos\Series y ciclos\obj\Debug\Series_y_ciclos.Properties.Resources.resources
+C:\Users\brand\source\repos\Series y ciclos\Series y ciclos\obj\Debug\Series y ciclos.csproj.GenerateResource.Cache
+C:\Users\brand\source\repos\Series y ciclos\Series y ciclos\obj\Debug\Series y ciclos.csproj.CoreCompileInputs.cache
+C:\Users\brand\source\repos\Series y ciclos\Series y ciclos\obj\Debug\Series y ciclos.exe
+C:\Users\brand\source\repos\Series y ciclos\Series y ciclos\obj\Debug\Series y ciclos.pdb
