@@ -28,7 +28,7 @@ namespace Series_y_ciclos
         private double logNatural(int num, int repeticiones)
         {
             double factor = (double)(num - 1) / num;
-            double resultado = 0;
+            double resultado = factor;
 
             for( int i = 2; i <= repeticiones; i++ )
             {
@@ -54,7 +54,15 @@ namespace Series_y_ciclos
 
             for( int i = 1; i <= repeticiones; i++, exponente += 2 )
             {
-                resultado = (i-1) % 2 == 0 ? resultado + (Math.Pow(num,exponente) / factorial ) : resultado - (Math.Pow(num, exponente) / factorial);
+                if((i - 1) % 2 == 0 )
+                {
+                    resultado += (Math.Pow(num, exponente) / factorial);
+                }
+                else
+                {
+                    resultado -= (Math.Pow(num, exponente) / factorial);
+                }
+
                 factorial *= (i + 1) * (i + 2);
             }
 
@@ -75,10 +83,17 @@ namespace Series_y_ciclos
             double resultado = 1;
             int exponente = 2;
 
-            for (int i = 1; i < repeticiones; i++, exponente += 2)
+            for (int i = 2; i <= repeticiones; i++, exponente += 2)
             {
-                resultado = (i-1) % 2 == 0 ? resultado + (Math.Pow(num, exponente) / factorial) : resultado - (Math.Pow(num, i) / factorial);
-                factorial *= (i + 1) * (i + 2);
+                if(i % 2 == 0)
+                {
+                    resultado -= (Math.Pow(num, exponente) / factorial);
+                }
+                else
+                {
+                    resultado += (Math.Pow(num, exponente) / factorial);
+                }
+                factorial *= (i+1) * (i+2);
             }
 
             return resultado;
